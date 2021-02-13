@@ -11,7 +11,7 @@ const getMempool = async () => {
           vsize: number;
           total_fee: number;
           fee_histogram: number[];
-        }[];
+        };
       }) => {
         return res.data;
       }
